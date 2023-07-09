@@ -1,0 +1,15 @@
+spring:
+   datasource:
+      username: ecommerce
+      password: ecommerce
+      url: jdbc:mysql://localhost:3306/ecommerce
+      
+   jpa:
+     hibernate:
+       ddl-auto: create
+     show-sql: true
+     defer-datasource-initialization: true
+    
+   sql:
+     init:
+       mode: always
